@@ -1,0 +1,47 @@
+body{
+  background-color: black;
+}
+
+h1{
+  font-size-adjust: auto;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+p{
+  font-size-adjust: auto;
+  text-align: center;
+  color: white;
+}
+
+.navbar-nav{
+  float: right;
+}
+
+
+/* Keeps footer at bottom of screen */
+* {
+ box-sizing: border-box;
+}
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+}
+footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
