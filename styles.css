@@ -45,3 +45,11 @@ footer {
  bottom: 0;
  width: 100%;
 }
+
+/* Doing business pic centered*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:auto; /* Task: fix to look right on reguluar screen size and shrunkin size*/
+}
