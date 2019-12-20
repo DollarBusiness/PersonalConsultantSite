@@ -1,3 +1,4 @@
-<script>
-  document.alert("hello")
-</script>
+//Cycles through pics
+$('.carousel').carousel({
+  interval: 2000
+})
