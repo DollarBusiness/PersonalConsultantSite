@@ -10,7 +10,8 @@ h1{
 }
 
 p{
-  font-size-adjust: auto;
+  padding: 0.5%;
+  /*font-size-adjust: auto;*/
   text-align: center;
   color: white;
 }
@@ -18,7 +19,6 @@ p{
 .navbar-nav{
   float: right;
 }
-
 
 /* Keeps footer at bottom of screen */
 * {
@@ -42,7 +42,7 @@ body {
 }
 footer {
  position: absolute;
- bottom: 0;
+ bottom: 20;
  width: 100%;
 }
 
@@ -51,5 +51,11 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:auto; /* Task: fix to look right on reguluar screen size and shrunkin size*/
+  width: 500px; /* Task (COMPLETE): fix to look right on reguluar screen
+                size and shrunkin size*/
+}
+
+/*picture slideshow*/
+#carouselExampleControls {
+  padding: 1% 10%;
 }
